@@ -1,0 +1,99 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Фрукты",
+      "description": "Это здоровье"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Овощи",
+      "description": "Это полезно"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Автомобили",
+      "description": "Это средство передвижения"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Телефоны",
+      "description": "Это средство связи"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Яблоки",
+      "description": "Источник железа",
+      "picture": "products/20-1-1.png",
+      "price": 99.0,
+      "created_at": "2023-05-25T21:27:39.027Z",
+      "updated_at": "2023-05-25T21:27:39.027Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Банан",
+      "description": "Экзотический фрукт",
+      "picture": "products/19_1_задание_3_002.png",
+      "price": 111.99,
+      "created_at": "2023-05-25T21:28:46.368Z",
+      "updated_at": "2023-05-25T21:28:46.368Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Огурец",
+      "description": "Местный",
+      "picture": "",
+      "price": 89.99,
+      "created_at": "2023-05-25T21:29:10.279Z",
+      "updated_at": "2023-05-25T21:29:10.279Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Помидор",
+      "description": "Местный",
+      "picture": "",
+      "price": 199.99,
+      "created_at": "2023-05-25T21:29:31.614Z",
+      "updated_at": "2023-05-25T21:29:31.614Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Морковь",
+      "description": "Краснодарская",
+      "picture": "",
+      "price": 44.99,
+      "created_at": "2023-05-25T21:33:42.448Z",
+      "updated_at": "2023-05-25T21:33:42.448Z",
+      "category": 2
+    }
+  }
+]
