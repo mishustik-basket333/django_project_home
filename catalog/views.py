@@ -33,3 +33,10 @@ def one_product(request):
         'title': "Продукт - описание",
     }
     return render(request, 'catalog/one_product.html', context)
+
+# def one_product(request, pk):
+#     context = {
+#         'object_list': Product.objects.get(id=pk),
+#         'title': "Продукт - описание",
+#     }
+#     return render(request, 'catalog/one_product.html', context)
