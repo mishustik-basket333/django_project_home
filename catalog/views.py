@@ -27,16 +27,16 @@ def product(request):
     }
     return render(request, 'catalog/product.html', context)
 
-def one_product(request):
-    context = {
-        'object_list': Product.objects.all(),
-        'title': "Продукт - описание",
-    }
-    return render(request, 'catalog/one_product.html', context)
-
-# def one_product(request, pk):
+# def one_product(request):
 #     context = {
-#         'object_list': Product.objects.get(id=pk),
+#         'object_list': Product.objects.all(),
 #         'title': "Продукт - описание",
 #     }
 #     return render(request, 'catalog/one_product.html', context)
+
+def one_product(request, pk):
+    context = {
+        'object_list': Product.objects.get(pk=pk),
+        'title': "Продукт - описание",
+    }
+    return render(request, 'catalog/one_product.html', context)

@@ -4,7 +4,8 @@
     "pk": 1,
     "fields": {
       "name": "Фрукты",
-      "description": "Это здоровье"
+      "description": "Это здоровье",
+      "id": 1
     }
   },
   {
@@ -12,7 +13,8 @@
     "pk": 2,
     "fields": {
       "name": "Овощи",
-      "description": "Это полезно"
+      "description": "Это полезно",
+      "id": 2
     }
   },
   {
@@ -20,7 +22,8 @@
     "pk": 3,
     "fields": {
       "name": "Автомобили",
-      "description": "Это средство передвижения"
+      "description": "Это средство передвижения",
+      "id": 3
     }
   },
   {
@@ -28,7 +31,8 @@
     "pk": 4,
     "fields": {
       "name": "Телефоны",
-      "description": "Это средство связи"
+      "description": "Это средство связи",
+      "id": 4
     }
   },
   {
@@ -41,7 +45,8 @@
       "price": 99.0,
       "created_at": "2023-05-25T21:27:39.027Z",
       "updated_at": "2023-05-29T12:39:28.442Z",
-      "category": 1
+      "category": 1,
+      "id": 1
     }
   },
   {
@@ -54,7 +59,8 @@
       "price": 111.99,
       "created_at": "2023-05-25T21:28:46.368Z",
       "updated_at": "2023-05-29T12:37:24.571Z",
-      "category": 1
+      "category": 1,
+      "id": 2
     }
   },
   {
@@ -67,7 +73,8 @@
       "price": 89.99,
       "created_at": "2023-05-25T21:29:10.279Z",
       "updated_at": "2023-05-29T12:38:40.823Z",
-      "category": 2
+      "category": 2,
+      "id": 3
     }
   },
   {
@@ -80,7 +87,8 @@
       "price": 199.99,
       "created_at": "2023-05-25T21:29:31.614Z",
       "updated_at": "2023-05-29T12:38:46.965Z",
-      "category": 2
+      "category": 2,
+      "id": 4
     }
   },
   {
@@ -93,7 +101,8 @@
       "price": 44.99,
       "created_at": "2023-05-25T21:33:42.448Z",
       "updated_at": "2023-05-29T12:38:58.534Z",
-      "category": 2
+      "category": 2,
+      "id": 5
     }
   },
   {
@@ -106,7 +115,8 @@
       "price": 255.0,
       "created_at": "2023-05-29T11:58:36.607Z",
       "updated_at": "2023-05-29T12:45:44.601Z",
-      "category": 2
+      "category": 2,
+      "id": 6
     }
   }
 ]
