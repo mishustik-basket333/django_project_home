@@ -36,7 +36,7 @@ def product(request):
 
 def one_product(request, pk):
     context = {
-        'object_list': Product.objects.get(pk=pk),
+        'object': Product.objects.get(pk=pk),
         'title': "Продукт - описание",
     }
     return render(request, 'catalog/one_product.html', context)
