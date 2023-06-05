@@ -5,7 +5,7 @@
 <form action="" method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <input href="{% url 'catalog:blog_entry' %}" type="submit" cls="btn btn-success"
+    <input type="submit" cls="btn btn-success"
            value="{% if object %} Cохранить {% else %} Создать {% endif %} {{ object.save}}">
 
  </form>

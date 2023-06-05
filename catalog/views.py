@@ -107,7 +107,10 @@ class BlogEntryUpdateView(UpdateView):
     model = BlogEntry
     fields = ("heading", "description", "picture", 'publication_flag',)
     template_name = "catalog/blog_entry_form.html"
-    success_url = reverse_lazy("catalog:blog_entry")
+    # success_url = reverse_lazy("catalog:one_blog_entry")
+
+    def get_success_url(self):
+        return reverse_lazy('catalog:one_blog_entry', kwargs={'slug': self.kwargs['slug']})
 
 
 class BlogEntryDeleteView(DeleteView):
