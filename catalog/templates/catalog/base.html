@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Товар</title>
+    <title>{{ head }}</title>
     <!-- Bootstrap core CSS -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -20,13 +20,14 @@
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">About</h4>
-                    <p class="text-muted"> Это моя попытка сделать задание 20.2 по шаблонизации </p>
+                    <p class="text-muted"> Это мое домашнее задание по Django </p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Меню</h4>
                     <ul class="list-unstyled">
                         <li><a href="{% url 'catalog:home'%}" class="text-white">Задание 19.1</a></li>
                         <li><a href="{% url 'catalog:product'%}" class="text-white">Товары</a></li>
+                        <li><a href="{% url 'catalog:blog_entry'%}" class="text-white">Блоги</a></li>
                     </ul>
                 </div>
             </div>
@@ -55,13 +56,13 @@
     <section class="jumbotron text-center">
         <div class="container">
             <h1 class="jumbotron-heading">{{title}}</h1>
-            <p class="lead text-muted"> Главная страница для вывода информации о товарах</p>
-            <p>
+<!--            <p class="lead text-muted"> Главная страница для вывода информации</p>-->
+<!--            <p>-->
                 <!--            <a href="/" class="btn btn-secondary my-2">Задание 19.1</a>-->
                 <!--            <a href="/contacts/" class="btn btn-secondary my-2">Задание 19.1</a>-->
                 <!--            <a href="/product/" class="btn btn-secondary my-2">страницу продукты</a>-->
                 <!--            <a href="/base/" class="btn btn-secondary my-2">базова страницу продукты</a>-->
-            </p>
+<!--            </p>-->
         </div>
     </section>
 

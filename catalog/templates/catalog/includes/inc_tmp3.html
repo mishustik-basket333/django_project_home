@@ -1,0 +1,17 @@
+{%load my_tags%}
+<div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+        <!--        <img class="card-img-top" src="{{ object.picture|mediapath }}"-->
+        <!--             alt="Card image cap">-->
+        <!--        <img class="card-img-top" src="{% mediapath object.picture %}"-->
+        <!--             alt="Card image cap">-->
+        <div class="card-body">
+            <p class="card-text">Название: {{ object.heading | title }}</p>
+            <p class="card-text">Описание: {{ object.description | truncatechars:100 }}</p>
+
+                {% include 'catalog/includes/inc_tmp5.html'%}
+
+            <a href="{% url 'catalog:one_blog_entry' object.slug %}" class="btn btn-secondary my-2">Блог</a>
+        </div>
+    </div>
+</div>

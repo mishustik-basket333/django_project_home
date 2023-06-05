@@ -12,12 +12,10 @@
 <!--            <p class="card-text">Дата создания: {{ object.created_at }}</p>-->
 <!--            <p class="card-text">Дата обновления: {{ object.updated_at }}</p>-->
             <p class="card-text">Категория: {{ object.category }}</p>
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                    <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Товары</a>
+
+                    <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Все товары</a>
                     <a href="{% url 'catalog:one_product' object.pk %}" class="btn btn-secondary my-2">Товар</a>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>

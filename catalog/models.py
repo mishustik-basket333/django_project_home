@@ -1,4 +1,6 @@
 from django.db import models
+from django.utils.text import slugify
+from transliterate import translit
 
 NULLABLE = {'blank': True, 'null': True}
 
@@ -37,3 +39,39 @@ class Product(models.Model):
         verbose_name_plural = 'продукты'  # Настройка для наименования набора объектов
         ordering = ('name',)  # Сортировка по имени
 
+
+class BlogEntry(models.Model):
+    heading = models.CharField(max_length=150, verbose_name='заголовок')
+    slug = models.CharField(max_length=150, verbose_name='URL', unique=True, db_index=True)
+    description = models.TextField(verbose_name='содержимое', **NULLABLE)
+    picture = models.ImageField(upload_to='blog/', verbose_name='изображение', **NULLABLE)
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name='создан', **NULLABLE)
+    publication_flag = models.BooleanField(default=True, verbose_name='публикация')
+    count_views = models.IntegerField(default=0, verbose_name='кол-во просмотров')
+
+    def counter(self):
+        self.count_views += 1
+        self.save()
+
+    # def save(self, *args, **kwargs):
+    #     if not self.pk:
+    #         # Newly created object, so set slug
+    #         self.slugs = slugify(self.heading)
+    #
+    #     super(BlogEntry, self).save(*args, **kwargs)
+    def save(self, *args, **kwargs):
+        # self.slug = slugify(self.heading)
+        self.slug = translit(self.heading, language_code='ru', reversed=True).lower()
+        super().save()
+    def __str__(self):
+        # Строковое отображение объекта
+        return f'{self.heading}'
+
+    def delete(self, *args, **kwargs):
+        self.publication_flag = False
+        self.save()
+
+    class Meta:
+        verbose_name = 'публикация'  # Настройка для наименования одного объекта
+        verbose_name_plural = 'публикации'  # Настройка для наименования набора объектов
+        ordering = ('heading',)  # Сортировка по заголовку

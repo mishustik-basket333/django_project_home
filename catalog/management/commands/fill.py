@@ -32,5 +32,7 @@ class Command(BaseCommand):
                 product_data.append(Product(**raw["fields"]))
         Product.objects.bulk_create(product_data)
 
+
+
         print("Были удалены все данные из таблиц: Category, Product\n"
               "Добавлены новые данные из файла 'data.json' в эти таблицы")

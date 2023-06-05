@@ -1,0 +1,6 @@
+
+            <p class="card-text">Дата создания: {{ object.created_at }}</p>
+            <p class="card-text">Просмотров: {{ object.count_views }}</p>
+            <a href="{% url 'catalog:blog_entry_update' object.slug %}" class="btn btn-warning my-2">Редактировать
+                блог</a>
+            <a href="{% url 'catalog:blog_entry_delete' object.slug %}" class="btn btn-danger my-2">Удалить</a>

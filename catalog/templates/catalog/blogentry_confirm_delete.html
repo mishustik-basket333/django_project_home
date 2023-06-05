@@ -1,0 +1,18 @@
+{% extends 'catalog/base.html' %}
+
+{% block content %}
+<h4>Уверены, что хотите удалить: {{ object }} ?</h4>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input href="{% url 'catalog:blog_entry' %}" type="submit" cls="btn btn-success"
+           value="Точно удалить ?">
+        <a href="{% url 'catalog:blog_entry' %}" class="btn btn-secondary my-2">Все блоги</a>
+        <diov>
+</form>
+{% endblock content %}
+
+
+
+
+
