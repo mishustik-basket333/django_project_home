@@ -5,8 +5,8 @@
 <form action="" method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <input href="{% url 'catalog:blog_entry' %}" type="submit" cls="btn btn-success"
+    <input href="{% url 'catalog:product' %}" type="submit" cls="btn btn-success"
            value="Точно удалить ?">
-        <a href="{% url 'catalog:blog_entry' %}" class="btn btn-secondary my-2">Все блоги</a>
+        <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Продукты</a>
 </form>
 {% endblock content %}

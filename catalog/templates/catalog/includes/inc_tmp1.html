@@ -20,6 +20,8 @@
             {% endfor %}
 
             <a href="{% url 'catalog:one_product' object.pk %}" class="btn btn-secondary my-2">Продукт</a>
+            <a href="{% url 'catalog:one_product_update' object.pk %}" class="btn btn-warning my-2">Редактирование</a>
+            <a href="{% url 'catalog:one_product_delete' object.pk %}" class="btn btn-danger my-2">Удаление</a>
 
         </div>
     </div>
