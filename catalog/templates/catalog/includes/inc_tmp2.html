@@ -1,8 +1,7 @@
 {%load my_tags%}
-<div class="col-md-4">
+<div class="col-md-6">
     <div class="card mb-4 box-shadow">
-        <!--        <img class="card-img-top" src="{{ object.picture|mediapath }}"-->
-        <!--             alt="Card image cap">-->
+
         <img class="card-img-top" src="{% mediapath object.picture %}"
              alt="Card image cap">
         <div class="card-body">
@@ -13,9 +12,25 @@
             <p class="card-text">Дата обновления: {{ object.updated_at }}</p>
             <p class="card-text">Категория: {{ object.category }}</p>
 
-                    <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Все товары</a>
-                    <a href="{% url 'catalog:one_product' object.pk %}" class="btn btn-secondary my-2">Товар</a>
+            <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Все продукты</a>
 
         </div>
     </div>
 </div>
+<div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">
+                    Версия продукта
+                </h5>
+            </div>
+            <div class="card-body">
+                {{ formset.management_form }}
+                {% for form in formset.forms %}
+                    {{ form.as_p }}
+                {% endfor %}
+
+            </div>
+            <div class="card-footer"></div>
+        </div>
+    </div>

@@ -27,7 +27,7 @@ class Product(models.Model):
     picture = models.ImageField(upload_to='products/', verbose_name='изображение', **NULLABLE)
     price = models.FloatField(verbose_name='цена')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='создан', **NULLABLE)
-    updated_at = models.DateTimeField(auto_now=True, verbose_name='изменен',  **NULLABLE)
+    updated_at = models.DateTimeField(auto_now=True, verbose_name='изменен', **NULLABLE)
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
 
     def __str__(self):
@@ -63,6 +63,7 @@ class BlogEntry(models.Model):
         # self.slug = slugify(self.heading)
         self.slug = translit(self.heading, language_code='ru', reversed=True).lower()
         super().save()
+
     def __str__(self):
         # Строковое отображение объекта
         return f'{self.heading}'
@@ -75,3 +76,17 @@ class BlogEntry(models.Model):
         verbose_name = 'публикация'  # Настройка для наименования одного объекта
         verbose_name_plural = 'публикации'  # Настройка для наименования набора объектов
         ordering = ('heading',)  # Сортировка по заголовку
+
+
+class Version(models.Model):
+    product = models.ForeignKey('Product', on_delete=models.CASCADE, verbose_name='продукт')
+    name = models.CharField(max_length=100, verbose_name='название')
+    num_version = models.IntegerField(verbose_name='версия')
+    flag_active = models.BooleanField(default=True)
+
+    class Meta:
+        verbose_name = "версия"
+        verbose_name_plural = "версии"
+
+    def __str__(self):
+        return self.name

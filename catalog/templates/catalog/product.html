@@ -1,6 +1,9 @@
 {% extends 'catalog/base.html' %}
 
 {% block content %}
+    <diov class="cool-12">
+        <a href="{% url 'catalog:product_create' %}" class="btn btn-primary my-2">Добавить продукт</a>
+    </diov>
 <div class="row">
     {% for object in object_list %}
         {% include 'catalog/includes/inc_tmp1.html'%}

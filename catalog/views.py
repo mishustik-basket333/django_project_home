@@ -1,8 +1,10 @@
+from django.forms import inlineformset_factory
 from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 
-from catalog.models import Product, BlogEntry
+from catalog.forms import ProductForm, VersionForm
+from catalog.models import Product, BlogEntry, Version
 
 
 class HomeListView(ListView):
@@ -39,6 +41,12 @@ class ProductListView(ListView):
         "head": "Все продукты"
     }
 
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        data = Version.objects.all()
+        context_data["version"] = data
+        return context_data
+
 
 # def product(request):
 #     context = {
@@ -56,11 +64,20 @@ class OneProductDetailView(DetailView):
         return Product.objects.filter(pk=self.kwargs['pk'])
 
     def get_context_data(self, **kwargs):
-        contex_data = super().get_context_data(**kwargs)
-        contex_data["title"] = "Описание про: " + self.get_object().name.lower()
-        contex_data["head"] = self.get_object().name
-        return contex_data
+        context_data = super().get_context_data(**kwargs)
+        context_data["title"] = "Описание про: " + self.get_object().name.lower()
+        context_data["head"] = self.get_object().name
 
+        # Формирование формсета
+        VersionFormset = inlineformset_factory(Product, Version, form=VersionForm, extra=1)
+        context_data['formset'] = VersionFormset(self.request.POST, instance=self.object)
+
+        return context_data
+
+class ProductCreateView(CreateView):
+    model = Product
+    form_class = ProductForm
+    success_url = reverse_lazy("catalog:product")
 
 # def one_product(request, pk):
 #     context = {

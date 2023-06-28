@@ -1,20 +1,25 @@
 {%load my_tags%}
 <div class="col-md-4">
     <div class="card mb-4 box-shadow">
-<!--        <img class="card-img-top" src="{{ object.picture|mediapath }}"-->
-<!--             alt="Card image cap">-->
-<!--        <img class="card-img-top" src="{% mediapath object.picture %}"-->
-<!--             alt="Card image cap">-->
+        <!--        <img class="card-img-top" src="{{ object.picture|mediapath }}"-->
+        <!--             alt="Card image cap">-->
+        <!--        <img class="card-img-top" src="{% mediapath object.picture %}"-->
+        <!--             alt="Card image cap">-->
         <div class="card-body">
             <p class="card-text">Название: {{ object.name | title }}</p>
             <p class="card-text">Описание: {{ object.description | truncatechars:100 }}</p>
             <p class="card-text">Цена: {{ object.price }}</p>
-<!--            <p class="card-text">Дата создания: {{ object.created_at }}</p>-->
-<!--            <p class="card-text">Дата обновления: {{ object.updated_at }}</p>-->
+            <!--            <p class="card-text">Дата создания: {{ object.created_at }}</p>-->
+            <!--            <p class="card-text">Дата обновления: {{ object.updated_at }}</p>-->
             <p class="card-text">Категория: {{ object.category }}</p>
+            {% for row in version %}
+                {% if row.product_id == object.pk and row.flag_active%}
+                    <p class="card-text">Имя версии: {{ row.name }}</p>
+                    <p class="card-text">Номер версии: {{ row.num_version }}</p>
+                {% endif %}
+            {% endfor %}
 
-                    <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Все товары</a>
-                    <a href="{% url 'catalog:one_product' object.pk %}" class="btn btn-secondary my-2">Товар</a>
+            <a href="{% url 'catalog:one_product' object.pk %}" class="btn btn-secondary my-2">Продукт</a>
 
         </div>
     </div>
