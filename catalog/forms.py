@@ -7,9 +7,9 @@ from catalog.data_file import bad_words
 class ProductForm(forms.ModelForm):
     class Meta:
         model = Product
-        fields = '__all__'  # Использование всех полей модели
+        # fields = '__all__'  # Использование всех полей модели
         # fields = ('first_name', ) # Использование только перечисленных полей
-        # exclude = ('last_name', ) # Использование всех полей, кроме перечисленных
+        exclude = ('owner', )  # Использование всех полей, кроме перечисленных
         # # Описан может быть только один из вариантов
 
     def clean_name(self):

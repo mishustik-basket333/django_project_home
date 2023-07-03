@@ -1,0 +1,2601 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-05-25T21:26:40.405Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Фрукты",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-05-25T21:26:52.785Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Овощи",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-05-25T21:27:09.933Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Автомобили",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-05-25T21:27:39.034Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Яблоки 99.0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-05-25T21:28:09.493Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Телефоны",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-05-25T21:28:46.369Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Банан 111.99",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-05-25T21:29:10.280Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Огурец 89.99",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-05-25T21:29:31.615Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Помидор 199.99",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-05-25T21:33:42.449Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Морковь 44.99",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-05-25T22:07:49.180Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-05-25T22:07:49.184Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-05-25T22:07:49.185Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-05-25T22:07:49.185Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-05-25T22:11:35.577Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-05-25T22:11:35.578Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-05-25T22:11:35.579Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-05-25T22:11:35.579Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-05-25T23:28:27.550Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-05-25T23:28:27.556Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-05-25T23:28:27.556Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-05-25T23:28:27.557Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-05-25T23:31:14.104Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-05-25T23:31:14.106Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-05-25T23:31:14.106Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-05-25T23:31:14.107Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-05-28T21:01:56.770Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "27",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-05-28T21:01:56.775Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "26",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-05-28T21:01:56.780Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "28",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-05-28T21:01:56.780Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "25",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-05-28T21:35:44.636Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "107",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-05-28T21:35:44.666Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "106",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-05-28T21:35:44.666Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "108",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-05-28T21:35:44.671Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "105",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-05-29T11:58:36.613Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Морковь элитная 255.0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-05-29T12:37:24.573Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Банан 111.99",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-05-29T12:38:40.824Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Огурец 89.99",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-05-29T12:38:46.965Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Помидор 199.99",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-05-29T12:38:58.535Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Морковь 44.99",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-05-29T12:39:28.443Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "яблоки 99.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-05-29T12:45:44.605Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Морковь элитная 255.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-05-29T15:02:34.108Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "99",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-05-29T15:02:34.110Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "98",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-05-29T15:02:34.110Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "100",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-05-29T15:02:34.111Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "97",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-06-02T12:10:08.460Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Баскетбол",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-06-03T11:11:34.463Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Волейбол",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-06-03T11:12:54.937Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Хоккей",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-06-03T11:14:08.103Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Плавание",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-06-03T11:15:37.891Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Армрестлинг",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-06-03T15:12:22.291Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Плавание",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-06-03T15:12:28.510Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Хоккей",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-06-04T12:05:05.860Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Уляля",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-06-04T12:05:05.867Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Уляля",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-06-04T12:08:14.369Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "123",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-06-04T12:08:14.394Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-06-04T12:14:30.176Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-06-04T12:14:30.181Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-06-04T12:14:30.181Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-06-04T12:27:08.499Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-06-04T12:27:08.509Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-06-04T12:27:08.509Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-06-04T12:27:08.514Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-06-04T12:27:08.514Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-06-04T12:45:32.095Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "19",
+      "object_repr": "ujyrb",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-06-04T12:45:32.102Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "24",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-06-04T12:45:32.107Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "23",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-06-04T12:45:32.107Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "22",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-06-04T12:45:32.107Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "21",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-06-04T12:45:32.107Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "25",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2023-06-04T12:45:32.112Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "20",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2023-06-04T13:12:35.697Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "26",
+      "object_repr": "Регби",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2023-06-04T13:26:25.761Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "27",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2023-06-04T13:26:25.764Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "26",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2023-06-04T13:27:34.175Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "30",
+      "object_repr": "Регби",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2023-06-04T14:05:22.108Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "30",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2023-06-04T14:26:17.259Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Армрестлинг",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2023-06-04T14:26:22.232Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Баскетбол",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2023-06-04T14:26:27.359Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Хоккей",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2023-06-04T20:12:14.150Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Армрестлинг",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2023-06-04T20:12:19.348Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Волейбол",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2023-06-04T20:12:44.132Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "теннис",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2023-06-04T20:29:22.564Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2023-06-04T20:31:16.084Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2023-06-04T20:35:43.988Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2023-06-04T20:40:09.231Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Гонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2023-06-04T20:40:09.266Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "Гонки66",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2023-06-04T20:41:57.935Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "Гонки66",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2023-06-04T20:41:57.941Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "Танцы",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2023-06-04T20:41:57.941Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "Танцы123",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2023-06-04T20:53:20.829Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "Танцы123",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2023-06-04T20:53:29.582Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "19",
+      "object_repr": "поло",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2023-06-04T21:02:20.427Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "20",
+      "object_repr": "поло",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2023-06-04T21:02:54.408Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "21",
+      "object_repr": "поло",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2023-06-04T21:07:11.934Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "26",
+      "object_repr": "Автогонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2023-06-04T21:07:11.934Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "22",
+      "object_repr": "поло",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2023-06-04T21:07:11.939Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "23",
+      "object_repr": "Танцы",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2023-06-04T21:07:11.939Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "25",
+      "object_repr": "Танцы-минус",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2023-06-04T21:15:54.096Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "27",
+      "object_repr": "Автогонки",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2023-06-04T21:15:54.106Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "28",
+      "object_repr": "поло",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2023-06-04T21:15:54.106Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "30",
+      "object_repr": "поло1234",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.146Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "32",
+      "object_repr": "123",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.157Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "35",
+      "object_repr": "fwragserg",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.158Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "36",
+      "object_repr": "jljlkjblkjb;",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.158Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "34",
+      "object_repr": "q242452345234t5egrfvc",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.158Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "39",
+      "object_repr": "qwertyuiop[]",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.159Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "31",
+      "object_repr": "поло",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.160Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "38",
+      "object_repr": "Регбиrew5trgrtsdfxhbdfgx",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2023-06-05T21:57:14.160Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "37",
+      "object_repr": "Танцы",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2023-06-05T23:07:40.873Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Армрестлин",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2023-06-05T23:07:40.879Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Баскетбол",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2023-06-05T23:07:40.880Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Волейбол",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+      "action_time": "2023-06-05T23:07:40.880Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Плавание",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+      "action_time": "2023-06-22T12:40:23.048Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Чеснок 699.99",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+      "action_time": "2023-06-22T13:26:08.587Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "ккказино 1234.55",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+      "action_time": "2023-06-22T13:54:34.703Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "ЮАР",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+      "action_time": "2023-06-22T13:54:42.798Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "ЮАР",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Flag active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+      "action_time": "2023-06-22T13:55:04.872Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Эквадор",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+      "action_time": "2023-06-22T14:27:08.890Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Бразилия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+      "action_time": "2023-06-22T14:27:22.921Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Россия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+      "action_time": "2023-06-22T14:27:32.197Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "Беларусь",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+      "action_time": "2023-06-22T14:27:45.749Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "Турция",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+      "action_time": "2023-06-22T14:27:57.489Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "11",
+      "object_repr": "Польша",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+      "action_time": "2023-06-22T14:42:10.004Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Россия",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Flag active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+      "action_time": "2023-06-22T14:42:12.296Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "11",
+      "object_repr": "Польша",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Flag active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+      "action_time": "2023-06-24T12:15:55.788Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Бразилия",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Flag active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+      "action_time": "2023-06-24T12:18:12.083Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "12",
+      "object_repr": "Иран",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+      "action_time": "2023-06-24T12:43:40.409Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "12",
+      "object_repr": "Иран",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Flag active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+      "action_time": "2023-06-24T19:16:13.080Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "15",
+      "object_repr": "Чеснок 123.0",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+      "action_time": "2023-06-28T12:29:06.242Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "Чеснок 123.0",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+      "action_time": "2023-07-02T21:08:04.788Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Банан 111.99",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+      "action_time": "2023-07-02T21:08:04.820Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Морковь 44.99",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+      "action_time": "2023-07-02T21:08:04.825Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Морковь элитная 255.0",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+      "action_time": "2023-07-02T21:08:04.825Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Огурец 89.99",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+      "action_time": "2023-07-02T21:08:04.825Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Помидор 199.99",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+      "action_time": "2023-07-02T21:08:04.830Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "яблоки 99.0",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+      "action_time": "2023-07-02T21:08:10.477Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+      "action_time": "2023-07-02T21:08:10.487Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+      "action_time": "2023-07-02T21:08:10.492Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+      "action_time": "2023-07-02T21:08:10.492Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+      "action_time": "2023-07-02T21:15:58.048Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+      "action_time": "2023-07-02T21:15:58.080Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+      "action_time": "2023-07-02T21:15:58.080Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+      "action_time": "2023-07-02T21:15:58.085Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+      "action_time": "2023-07-02T21:18:34.563Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "15",
+      "object_repr": "ЮАР",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+      "action_time": "2023-07-02T22:36:15.283Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "53",
+      "object_repr": "Регби",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+      "action_time": "2023-07-02T22:42:17.993Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Автомобили",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+      "action_time": "2023-07-02T22:42:18.004Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Овощи",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+      "action_time": "2023-07-02T22:42:18.004Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Телефоны",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+      "action_time": "2023-07-02T22:42:18.009Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Фрукты",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add продукт",
+      "content_type": 7,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change продукт",
+      "content_type": 7,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete продукт",
+      "content_type": 7,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view продукт",
+      "content_type": 7,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add категория",
+      "content_type": 8,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change категория",
+      "content_type": 8,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete категория",
+      "content_type": 8,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view категория",
+      "content_type": 8,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add публикация",
+      "content_type": 9,
+      "codename": "add_blogentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change публикация",
+      "content_type": 9,
+      "codename": "change_blogentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete публикация",
+      "content_type": 9,
+      "codename": "delete_blogentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view публикация",
+      "content_type": 9,
+      "codename": "view_blogentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add version",
+      "content_type": 10,
+      "codename": "add_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change version",
+      "content_type": 10,
+      "codename": "change_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete version",
+      "content_type": 10,
+      "codename": "delete_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view version",
+      "content_type": 10,
+      "codename": "view_version"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$A0J3IOCi99DtDPZFeWTLqZ$Jpm8S5dLu994/X0pSsvo1u9GQuSsZi+gpaCl1Q+fR8s=",
+      "last_login": "2023-06-22T11:47:54.152Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-05-25T21:23:45.334Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "catalog",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "catalog",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "catalog",
+      "model": "blogentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "catalog",
+      "model": "version"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "hbby8bduxvppxfwqbw7d1q0wgsv8kjg1",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlnOsonXlPQ5g7XrDw4gR4qTCnF3iJQC2jcz76U8b2vxW0uLn6K6qE6dfjfh8Eh1B_HO9TbrMNd1mUTvij5o0-Mc0_N6uH8HhVv51jYDoBWWgCYTinUYMhL3gzPOAZkMnSMYSDAgG4k9MJ2BKFqSmJN6fwDQBjeK:1qCIn4:gsszc2IUSAlCvaXVfIsfX9yCERyEfb-0fNdK-bITnWo",
+      "expire_date": "2023-07-06T11:47:54.157Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "iyh9ja5hgx9jr59b939qefcnzetmirgv",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlnOsonXlPQ5g7XrDw4gR4qTCnF3iJQC2jcz76U8b2vxW0uLn6K6qE6dfjfh8Eh1B_HO9TbrMNd1mUTvij5o0-Mc0_N6uH8HhVv51jYDoBWWgCYTinUYMhL3gzPOAZkMnSMYSDAgG4k9MJ2BKFqSmJN6fwDQBjeK:1q2IRf:eu01PmklOyzo-nFxeJ54nVdoCIl1p_q0Q2rdSA09Dks",
+      "expire_date": "2023-06-08T21:24:27.134Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 17,
+    "fields": {
+      "name": "Фрукты",
+      "description": "Это здоровье"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 18,
+    "fields": {
+      "name": "Овощи",
+      "description": "Это полезно"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 19,
+    "fields": {
+      "name": "Автомобили",
+      "description": "Это средство передвижения"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 20,
+    "fields": {
+      "name": "Телефоны",
+      "description": "Это средство связи"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 25,
+    "fields": {
+      "name": "яблоки",
+      "description": "Яблоки представляют собой плоды круглой, удлинённой или овальной формы, имеют твёрдую кожуру зелёного, красного, белого, жёлтого или смешанного цвета, сочную твёрдую мякоть, плодоножку и небольшие семечки внутри фрукта.\r\nСвойство яблок темнеть на срезе. Яблоко имеет такое свойство темнеть на срезе. Это не означает, что яблоко испорчено или его нельзя разрезать ножом. Это происходит из-за окисления находящегося в яблоке железа кислородом.",
+      "picture": "products/1662040156_j-4.jpg",
+      "price": 99.0,
+      "created_at": "2023-07-02T22:42:48.442Z",
+      "updated_at": "2023-07-02T22:42:48.442Z",
+      "category": 17
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 26,
+    "fields": {
+      "name": "Банан",
+      "description": "Банан – травянистое растение (не пальма, как многие думают) высотой до 9 метров. Зрелые плоды желтые, вытянутые и цилиндрические, напоминают полумесяц. Покрыты плотной кожурой, слегка маслянистой текстуры. Мякоть имеет нежно молочный цвет. Родина банана – Юго-Восточная Азия (Малайский архипелаг), здесь бананы появились с 11 века до нашей эры.",
+      "picture": "products/1661962809_j-7.jpg",
+      "price": 111.99,
+      "created_at": "2023-07-02T22:42:48.442Z",
+      "updated_at": "2023-07-02T22:42:48.442Z",
+      "category": 17
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 27,
+    "fields": {
+      "name": "Огурец",
+      "description": "Огурцы — это плоды однолетнего травянистого растения семейства Тыквенные. Относятся к овощным культурам. Плоды располагаются на длинном стелющемся шершавом стебле, который в длину может достигать 2 метров. Листья — ярко-зеленые, сердцевидные, большие. Плоды вытянутой цилиндрической формы, имеют кожуру ярко-зеленого и темно-зеленого цвета и сочную мякоть белого или слегка зеленоватого оттенка, многосемянные. Вкус огурца свежий, нейтральный.",
+      "picture": "products/647_11.jpg",
+      "price": 89.99,
+      "created_at": "2023-07-02T22:42:48.447Z",
+      "updated_at": "2023-07-02T22:42:48.447Z",
+      "category": 18
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 28,
+    "fields": {
+      "name": "Помидор",
+      "description": "Томат — самоопыляющееся растение, но в южных регионах наблюдается и перекрестное опыление. Цветок мелкий, невзрачный, желтый. Плод — сочная 2-х или многогнездная ягода, массой от 5 до 1000 г. Чем больше камер (гнезд) в плоде, тем он мясистее. По форме плоды бывают плоские, плоскоокруглые, округлые, удлиненно-овальные, сливовидные, смородиновидные, вишневидные, перцевидные, грушевидные, цилиндрические.",
+      "picture": "products/8b506ea36cb3f73d8de69c926fa24250.jpg",
+      "price": 199.99,
+      "created_at": "2023-07-02T22:42:48.447Z",
+      "updated_at": "2023-07-02T22:42:48.447Z",
+      "category": 18
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 29,
+    "fields": {
+      "name": "Морковь",
+      "description": "Двулетнее травянистое растение с мясистым корнеплодом и многократно перисто-рассечёнными листьями.\r\nСоцветие — 10—15-лучевой сложный зонтик, лучи шероховато-опушённые, распростёртые во время цветения. Цветки — с мелкими зубчиками чашечки с белыми, красноватыми или желтоватыми лепестками. Плоды — мелкие, эллиптические двусемянки длиной 3—5 мм.",
+      "picture": "products/111_9MZkgIU.jpeg",
+      "price": 44.99,
+      "created_at": "2023-07-02T22:42:48.447Z",
+      "updated_at": "2023-07-02T22:42:48.447Z",
+      "category": 18
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 30,
+    "fields": {
+      "name": "Морковь элитная",
+      "description": "Из семейства Сельдерейные (Apiaceae, устар. Зонтичные Umbellíferae) морковь является наиболее широко выращиваемым и важным овощем. Прогрессируя от своего первоначального использования в медицине, морковь стала одним из основных овощей и получила широкое признание благодаря высокому содержанию альфа- и бета-каротина в корнеплодах. Оба каротина важны в питании человека как предшественники витамина А. Потребление моркови превышает потребление любого другого корнеплода семейства Сельдерейные.\r\n\r\nМорковь цениться своими высокими питательными, вкусовыми, диетическими качествами, легко усваивается организмом, оказывает положительное действие на процесс обмена веществ. Свежую морковь едят в сыром виде в салатах и в качестве закуски за ее сладкий, ароматный вкус и хрустящую текстуру. Обычные способы приготовления свежей моркови включают приготовление на пару, варку, запекание и жарку. Хотя основным продуктом является корнеплод, молодые нежные листья иногда используются в Китае и Японии как жареная капуста, а также в салатах. Для этих целей листья получают из высокоплотных посадок и собирают на ранней стадии роста до значительного увеличения корней.\r\n\r\nПомимо использования в свежем виде, значительные объемы моркови перерабатываются в консервированную, замороженную, обезвоженную, маринованную и соковую продукцию. Виды консервированных и замороженных продуктов из моркови весьма разнообразны. Мелкие корнеплоды могут перерабатываться целиком. Крупные корнеплоды нарезают кубиками или ломтиками, клиньями, полосками и другими формами. Их также измельчают в пюре для использования в детском питании. Обезвоженные продукты включают морковные чипсы, хлопья и порошок. Тонкие ломтики моркови обжаривают во фритюре, как и картофель, для приготовления закусок.",
+      "picture": "products/55df5c918d900cc14a730516855e0779.webp",
+      "price": 255.0,
+      "created_at": "2023-07-02T22:42:48.447Z",
+      "updated_at": "2023-07-02T22:42:48.447Z",
+      "category": 18
+    }
+  },
+  {
+    "model": "catalog.blogentry",
+    "pk": 60,
+    "fields": {
+      "heading": "Баскетбол",
+      "slug": "basketbol",
+      "description": "Баскетбо́л (англ. basket «корзина» + ball «мяч») — спортивная командная игра с мячом, в которой мяч забрасывают руками в кольцо соперника.\r\n\r\nВ баскетбол играют две команды, каждая из которых состоит из пяти полевых игроков (замены не ограничены). Цель каждой команды — забросить мяч в кольцо с сеткой (корзину) соперника и помешать другой команде завладеть мячом и забросить его в свою корзину. Корзина находится на высоте 3,05 м от паркета (10 футов). За мяч, заброшенный с ближней и средней дистанций, засчитывается два очка, с дальней (из-за трёхочковой линии) — три очка; штрафной бросок оценивается в одно очко. Стандартный размер баскетбольной площадки — 28 м в длину и 15 м — в ширину. Баскетбол — один из самых популярных видов спорта в мире[1].\r\n\r\nБаскетбол входит в программу Олимпийских игр с 1936 года (изобретатель игры Джеймс Нейсмит был там в качестве гостя). Регулярные чемпионаты мира по баскетболу среди мужчин проводятся с 1950 года, среди женщин — с 1953 года, а чемпионаты Европы — с 1935 года.\r\n\r\nВ Европе проводятся международные клубные соревнования по баскетболу: Евролига, Еврокубок, Кубок вызова ФИБА.\r\n\r\nНаибольшего развития эта игра достигла в США: чемпионат Национальной баскетбольной ассоциации (НБА) более 50 лет является сильнейшим национальным клубным турниром в мире. Баскетбол считается национальным видом спорта в Литве.",
+      "picture": "blog/1661963419_j-50.jpg",
+      "created_at": "2023-07-02T22:42:48.452Z",
+      "publication_flag": true,
+      "count_views": 0
+    }
+  },
+  {
+    "model": "catalog.blogentry",
+    "pk": 61,
+    "fields": {
+      "heading": "Волейбол",
+      "slug": "volejbol",
+      "description": "Волейбо́л (англ. volleyball от volley — «удар с лёту» и ball — «мяч») — вид спорта, командная спортивная игра, в процессе которой две команды соревнуются на специальной площадке, разделённой сеткой, стремясь направить мяч на сторону соперника таким образом, чтобы он приземлился на площадке противника (добить до пола), либо чтобы игрок защищающейся команды допустил ошибку. При этом для организации атаки игрокам одной команды разрешается не более трёх касаний мяча подряд (в дополнение к касанию на блоке).\r\n\r\nВолейбол — неконтактный, комбинационный вид спорта, где каждый игрок имеет строгую специализацию на площадке. Важнейшими качествами для игроков в волейбол являются прыгучесть для возможности высоко подняться над сеткой, реакция, координация, физическая сила для эффективного произведения атакующих ударов.\r\n\r\nДля любителей волейбол — распространённое развлечение и способ отдыха благодаря простоте правил и доступности инвентаря, обычно проводимое на специальных пляжных площадках или спортзалах.\r\n\r\nЦентральный орган волейбола как международного вида спорта, определяющий свод правил — Международная федерация волейбола, FIVB (англ.). Волейбол входит в программу Олимпийских игр с 1964 года[3].\r\n\r\nЧеловек, играющий в эту игру — волейболи́ст.\r\n\r\nСуществуют многочисленные варианты волейбола, ответвившиеся от основного вида — пляжный волейбол (олимпийский вид с 1996 года), волейбол на снегу[3], мини-волейбол, пионербол, парковый волейбол (утверждённый конгрессом FIVB в ноябре 1998 года в Токио)[4], волейбол сидя (паралимпийский вид спорта).",
+      "picture": "blog/1666511227_1.jpg",
+      "created_at": "2023-07-02T22:42:48.452Z",
+      "publication_flag": true,
+      "count_views": 0
+    }
+  },
+  {
+    "model": "catalog.blogentry",
+    "pk": 62,
+    "fields": {
+      "heading": "Хоккей",
+      "slug": "hokkej",
+      "description": "Хокке́й (англ. hockey) — семейство игр на ледовой, тартановой, пластиковой, деревянной или травяной площадке, в котором две команды стараются поразить (мячом или шайбой) цель — ворота противника, используя клюшки. В каждой команде есть вратарь (иногда два вратаря, второй — запасной), который защищает ворота своей команды, и несколько полевых игроков. Существует много видов хоккея, такие как хоккей с шайбой, хоккей с мячом, хоккей на траве и другие.\r\n\r\nВ большинстве стран мира термин «хоккей» без уточнений относится к хоккею на траве, в то время как в США, Канаде, России и большинстве стран Восточной и Северной Европы этот термин обычно относится к хоккею с шайбой[1]. В частности, во Всероссийский реестр видов спорта хоккей с шайбой включён под названием «хоккей», без уточнений.",
+      "picture": "blog/9bd23ab3e48f843998420cb462962071.jpg",
+      "created_at": "2023-07-02T22:42:48.452Z",
+      "publication_flag": true,
+      "count_views": 0
+    }
+  },
+  {
+    "model": "catalog.blogentry",
+    "pk": 63,
+    "fields": {
+      "heading": "Плавание",
+      "slug": "plavanie",
+      "description": "Пла́вание — вид спорта или спортивная дисциплина, заключающаяся в преодолении вплавь за наименьшее время различных дистанций[1]. При этом в подводном положении по действующим ныне правилам разрешается проплыть не более 15 м после старта или поворота (в плавании брассом подобное ограничение сформулировано по-другому); скоростные виды подводного плавания относятся не к плаванию, а к подводному спорту.\r\n\r\nПо классификации МОК (согласно принципу «одна федерация — один вид спорта») плавание как вид спорта включает в себя: собственно плавание, водное поло, прыжки в воду и синхронное плавание[2]; в русскоязычной спортивной литературе в качестве синонима плавания в этом значении употребляется словосочетание «водные виды спорта». Координацией развития водных видов спорта в мире занимается Международная федерация плавания (ФИНА, фр. FINA, Fédération Internationale de Natation, создана в 1908 году)[3][4], проводящая чемпионаты мира (с 1973); в Европе — Лига европейского плавания (ЛЕН, фр. LEN, Ligue Européenne de Natation, создана в 1926 году)[5], проводящая чемпионаты Европы (с 1926 года).\r\n\r\nСогласно Всероссийскому реестру видов спорта все водные виды считаются различными видами спорта.\r\n\r\nТакже плавание является составной частью современного пятиборья (заплыв на 200 м), триатлона (различные дистанции в открытой воде) и некоторых прикладных многоборий.",
+      "picture": "blog/effd0e928ccd6af27b064e62ef22beef.jpeg",
+      "created_at": "2023-07-02T22:42:48.452Z",
+      "publication_flag": true,
+      "count_views": 0
+    }
+  },
+  {
+    "model": "catalog.blogentry",
+    "pk": 64,
+    "fields": {
+      "heading": "Армрестлинг",
+      "slug": "armrestling",
+      "description": "Армрестлинг (рус. Рукоборие; от англ. Arm sport, arm wrestling, arm — рука) — вид борьбы на руках между двумя участниками (вид Спортивных единоборств). Во время матча одноимённые руки соревнующихся ставятся на твёрдую, ровную поверхность (как правило, стол), и ладони сцепляются в замок. Задачей соревнующегося рукоборца является прижатие руки противника к поверхности. На участников поединка накладывается ряд временных, технических и тактических ограничений (см. подробнее: Правила).\r\n\r\nНе являясь олимпийским видом спорта, борьба на руках тем не менее популярна во многих частях света.\r\n\r\nВ ходе поединка можно выделить следующие фазы: стартовая позиция, достижение преимущества, реализация преимущества. Можно сгибать кисти\r\n\r\nСкульптура в Сочи\r\nЯвляется древнейшим видом спорта, который был возрождён в 1960-е годы в США. В сентябре 1962 года в г. Петалума, штат Калифорния был проведён первый чемпионат мира по ристрестлингу — так была названа эта борьба (англ. wrist wrestling, дословно — «борьба запястьями»).\r\n\r\nВ 1990-х годах этот спорт получил распространение и в России — начинался в стране в 1989 году матчевой встречей СССР—США—Канада. Тогда все советские спортсмены, за исключением олимпийского чемпиона по тяжёлой атлетике Султана Рахманова, проиграли свои поединки. Выводы были сделаны правильные, и за прошедшие годы советские и российские спортсмены добились выдающихся успехов. Первым чемпионом мира из СССР стал Казбек Золоев 10 октября 1992 года (г. Петалума, Калифорния) в весовой категории до 180 фунтов. Много раз чемпионами мира становились Казбек Золоев, Маирбек и Хаджимурат Золоевы, украинцы Р. Бабаев, Е. Прудник и А. Пушкарь, а также россияне А. Кузнецов, И. Турчинская, Виктория Габагкова, Ибрагим Ибрагимов, А. Юньков, Алан Караев, Денис Цыпленков и другие. Благодаря регулярным победам на чемпионатах мира и Европы Россия закрепила лидирующее место в этом виде спорта.",
+      "picture": "blog/imgpreview.jpg",
+      "created_at": "2023-07-02T22:42:48.452Z",
+      "publication_flag": true,
+      "count_views": 0
+    }
+  },
+  {
+    "model": "catalog.blogentry",
+    "pk": 65,
+    "fields": {
+      "heading": "Регби",
+      "slug": "regbi",
+      "description": "Ре́гби-15, регби-ю́нион (англ. rugby union, МФА: [ˈrʌɡ.bi ˈjuː.ni.ən]) или просто ре́гби[3][прим. 3][прим. 4] — контактный командный вид спорта, возникший в XIX веке в Англии[4], один из видов регби-футбола. Игра в регби породила множество смежных видов спорта, среди которых наиболее популярны регбилиг и регби-7. Кроме того, некоторые элементы регби были включены в правила американского и австралийского футбола и их производных. Регбийный матч представляет собой соревнование двух команд, каждая из которых представлена пятнадцатью полевыми игроками. На лицевой линии поля находятся Н-образные ворота, а за лицевыми линиями поля расположены зачётные зоны команд. Основной задачей каждого из соперников является совершение результативных действий, то есть поражение ворот (удар выше перекладины) или занос мяча в зачётную зону оппонента. Правилами допускается касание мяча руками, что и обуславливает главное отличие регби от футбола. При этом на игру руками налагается ограничение: мяч не может быть передан руками вперёд, то есть с приближением к зачётной зоне соперника.\n\nСогласно легенде, основоположником регби является Уильям Уэбб Эллис, учащийся школы города Рагби (Регби). Первый свод правил регби был опубликован учениками школы Рагби в 1845 году. Спустя полвека, в 1895 году конфликт между английским регбийным союзом и рядом клубов из северной части страны привёл к созданию нового вида регби — регбилиг. Причиной разногласий стал запрет союза на финансовое стимулирование спортсменов, вынужденных пропускать воскресные работы ради участия в регбийных матчах. Регби распространился от стран своего происхождения — Великобритании и Ирландии и далее стал популярным видом спорта во многих странах, связанных с Британской империей. Первыми такими странами стали Австралия, Новая Зеландия, Южная Африка и Франция. В число стран, в которых регби стал национальным видом спорта, вошли Фиджи, Грузия, Мадагаскар[5], Новая Зеландия, Самоа и Тонга.\n\nНа протяжении большей части XX века руководящие регбийные органы поддерживали любительский статус игры, но в 1995 году Международный совет регби отменил большую часть ограничений на оплату труда игроков. Таким образом регби, лучшие представители которого уже давно вышли на профессиональный уровень, стало полностью профессиональным и с экономической точки зрения. Международный совет регби (IRB) является ведущим руководящим органом в игре с момента своего создания в 1886 году. Сейчас в регби играют более чем в ста странах по всему миру, а в ряде государств данный вид спорта признан национальным[6][7][8][9][10].",
+      "picture": "blog/df72d4ee74a307309faed9adb403cfb7_WfWm4x5.jpg",
+      "created_at": "2023-07-02T22:42:48.452Z",
+      "publication_flag": true,
+      "count_views": 0
+    }
+  }
+]

@@ -2,6 +2,8 @@
 
 {% block content %}
 <div class="row">
-    {% include 'catalog/includes/inc_tmp6.html'%}
+    {% if user.is_authenticated %}
+        {% include 'catalog/includes/inc_tmp6.html'%}
+    {% endif %}
 </div>
 {% endblock %}

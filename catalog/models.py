@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.utils.text import slugify
 from transliterate import translit
@@ -29,6 +30,8 @@ class Product(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='создан', **NULLABLE)
     updated_at = models.DateTimeField(auto_now=True, verbose_name='изменен', **NULLABLE)
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
+
+    owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, **NULLABLE)
 
     def __str__(self):
         # Строковое отображение объекта

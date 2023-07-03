@@ -6,7 +6,10 @@
     </diov>
 <div class="row">
     {% for object in object_list %}
-        {% include 'catalog/includes/inc_tmp1.html'%}
+        {% if user.is_authenticated  %}
+            {% include 'catalog/includes/inc_tmp1.html'%}
+        {% endif %}
+
     {% endfor %}
 </div>
 {% endblock %}

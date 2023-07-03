@@ -28,6 +28,13 @@
                         <li><a href="{% url 'catalog:home'%}" class="text-white">Задание 19.1</a></li>
                         <li><a href="{% url 'catalog:product'%}" class="text-white">Товары</a></li>
                         <li><a href="{% url 'catalog:blog_entry'%}" class="text-white">Блоги</a></li>
+                        {% if user.is_authenticated %}
+                            <li><a href="{% url 'users:profile'%}" class="text-blue">Профиль</a></li>
+                            <li><a href="{% url 'users:logout'%}" class="text-blue">Выйти</a></li>
+                        {% else %}
+                            <li><a href="{% url 'users:login'%}" class="text-blue">Войти</a></li>
+                            <li><a href="{% url 'users:register'%}" class="text-blue">Регистрация</a></li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'catalog.apps.CatalogConfig',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -138,7 +139,11 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 EMAIL_HOST = "smtp.yandex.ru"
 EMAIL_PORT = 465
-EMAIL_HOST_USER = '@mail.ru'
-EMAIL_HOST_PASSWORD = 'secret'
+EMAIL_HOST_USER = 'fuckup@oscarbot.ru'
+EMAIL_HOST_PASSWORD = 'AsTSNVv7pun9'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
+
+AUTH_USER_MODEL = 'users.User'
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'

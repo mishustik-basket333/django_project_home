@@ -12,6 +12,7 @@
             <!--            <p class="card-text">Дата создания: {{ object.created_at }}</p>-->
             <!--            <p class="card-text">Дата обновления: {{ object.updated_at }}</p>-->
             <p class="card-text">Категория: {{ object.category }}</p>
+            <p class="card-text">Владелец: {{ object.owner|default:'Никого' }}</p>
             {% for row in version %}
                 {% if row.product_id == object.pk and row.flag_active%}
                     <p class="card-text">Имя версии: {{ row.name }}</p>

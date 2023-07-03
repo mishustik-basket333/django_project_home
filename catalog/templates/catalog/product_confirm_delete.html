@@ -1,12 +1,18 @@
 {% extends 'catalog/base.html' %}
 
 {% block content %}
-<h4>Уверены, что хотите удалить: {{ object }} ?</h4>
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input href="{% url 'catalog:product' %}" type="submit" cls="btn btn-success"
-           value="Точно удалить ?">
-        <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Продукты</a>
-</form>
+
+{% if user.is_authenticated %}
+
+    <h4>Уверены, что хотите удалить: {{ object }} ?</h4>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input href="{% url 'catalog:product' %}" type="submit" cls="btn btn-success"
+               value="Точно удалить ?">
+            <a href="{% url 'catalog:product' %}" class="btn btn-secondary my-2">Продукты</a>
+    </form>
+
+{% endif %}
+
 {% endblock content %}
