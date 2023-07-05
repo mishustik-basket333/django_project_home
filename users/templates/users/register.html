@@ -3,7 +3,7 @@
 {% load my_tags %}
 
 {% block content %}
-<form enctype="multipart/form-data" method="post">
+<form action="{% url 'users:register'%}" enctype="multipart/form-data" method="post">
     <div class="row flex-wrap">
         <div class="col-md-3"></div>
         <div class="col-md-6">
@@ -15,7 +15,7 @@
                 {% csrf_token %}
                 {{ form.as_p }}
 
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Войти</button>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Регистрация</button>
             </div>
         </div>
     </div>

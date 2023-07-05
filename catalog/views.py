@@ -1,3 +1,5 @@
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin, PermissionRequiredMixin
 from django.forms import inlineformset_factory
 from django.shortcuts import render
 from django.urls import reverse_lazy
@@ -8,13 +10,14 @@ from catalog.forms import ProductForm, VersionForm
 from catalog.models import Product, BlogEntry, Version
 
 
-class HomeListView(ListView):
+class HomeListView(LoginRequiredMixin, ListView):
     model = Product
     template_name = "catalog/home.html"
     extra_context = {
         'title': "Домашняя страница из задания 19.1",
         "head": "19.1"
     }
+    login_url = '/login/'
 
 
 # def home(request):
@@ -24,6 +27,7 @@ class HomeListView(ListView):
 #     return render(request, 'catalog/home.html', context)
 
 
+@login_required(login_url='/login/')
 def contacts(request):
     if request.method == 'POST':
         name = request.POST.get('name')
@@ -34,19 +38,27 @@ def contacts(request):
     return render(request, 'catalog/contacts.html')
 
 
-class ProductListView(ListView):
+class ProductListView(LoginRequiredMixin, ListView):
     model = Product
     template_name = "catalog/product.html"
     extra_context = {
         'title': "Продукты",
         "head": "Все продукты"
     }
+    login_url = '/login/'
 
     def get_context_data(self, **kwargs):
         context_data = super().get_context_data(**kwargs)
         data = Version.objects.all()
         context_data["version"] = data
         return context_data
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        queryset = queryset.filter(publication_flag=True)
+        # if not self.queryset.user.is_staff:
+        #     queryset = queryset.filter(owner=self.request.user)
+        return queryset
 
 
 # def product(request):
@@ -57,11 +69,12 @@ class ProductListView(ListView):
 #     return render(request, 'catalog/product.html', context)
 
 
-class OneProductUpdateView(generic.UpdateView):
+class OneProductUpdateView(PermissionRequiredMixin, generic.UpdateView):
     model = Product
     form_class = ProductForm
     template_name = "catalog/one_product_update.html"
     success_url = reverse_lazy("catalog:product")
+    permission_required = 'catalog.change_product'
 
     def get_context_data(self, **kwargs):
         context_data = super().get_context_data(**kwargs)
@@ -124,15 +137,13 @@ class ProductCreateView(CreateView):
         self.object.save()
         return super().form_valid(form)
 
-
-
-
         return super().form_valid(form)
 
 
-class OneProductDeleteView(DeleteView):
+class OneProductDeleteView(PermissionRequiredMixin, DeleteView):
     model = Product
     success_url = reverse_lazy("catalog:product")
+    permission_required = 'catalog.delete_product'
 
 
 class BlogEntryCreateView(CreateView):
@@ -151,7 +162,7 @@ class BlogEntryListView(ListView):
 
     def get_queryset(self):
         queryset = super().get_queryset()
-        queryset = queryset.filter(publication_flag=True)
+        queryset = queryset.filter(publication_flag=True, )
         return queryset
 
 
@@ -173,6 +184,7 @@ class BlogEntryUpdateView(UpdateView):
     model = BlogEntry
     fields = ("heading", "description", "picture", 'publication_flag',)
     template_name = "catalog/blog_entry_form.html"
+
     # success_url = reverse_lazy("catalog:one_blog_entry")
 
     def get_success_url(self):

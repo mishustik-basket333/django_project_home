@@ -1,9 +1,12 @@
 {% extends 'catalog/base.html' %}
 
 {% block content %}
-    <diov class="cool-12">
-        <a href="{% url 'catalog:product_create' %}" class="btn btn-primary my-2">Добавить продукт</a>
-    </diov>
+    {% if perms.catalog.create_product%}
+        <diov class="cool-12">
+            <a href="{% url 'catalog:product_create' %}" class="btn btn-primary my-2">Добавить продукт</a>
+        </diov>
+    {% endif %}
+
 <div class="row">
     {% for object in object_list %}
         {% if user.is_authenticated  %}

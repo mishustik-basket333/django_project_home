@@ -18,3 +18,5 @@ def mediapath(value):
 def blog_count(self):
     self.count_views += 1
     self.save()
+
+

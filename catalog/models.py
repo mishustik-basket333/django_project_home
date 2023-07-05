@@ -32,6 +32,7 @@ class Product(models.Model):
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
 
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, **NULLABLE)
+    publication_flag = models.BooleanField(default=False, verbose_name='публикация')
 
     def __str__(self):
         # Строковое отображение объекта

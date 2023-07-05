@@ -137,12 +137,22 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-EMAIL_HOST = "smtp.yandex.ru"
-EMAIL_PORT = 465
-EMAIL_HOST_USER = 'fuckup@oscarbot.ru'
-EMAIL_HOST_PASSWORD = 'AsTSNVv7pun9'
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = True
+
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 2525
+EMAIL_HOST_USER = "iiiskhakov1990@mail.ru"
+EMAIL_HOST_PASSWORD = "J56n1tft7wzAeyGhyFid"
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+# EMAIL_HOST = "smtp.yandex.ru"
+# EMAIL_PORT = 465
+# EMAIL_HOST_USER = 'fuckup@oscarbot.ru'
+# EMAIL_HOST_PASSWORD = 'AsTSNVv7pun9'
+# EMAIL_USE_TLS = False
+# EMAIL_USE_SSL = True
+# SERVER_EMAIL = EMAIL_HOST_USER
+# DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 AUTH_USER_MODEL = 'users.User'
 LOGIN_REDIRECT_URL = '/'

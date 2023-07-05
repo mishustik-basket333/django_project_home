@@ -15,14 +15,20 @@
             <p class="card-text">Владелец: {{ object.owner|default:'Никого' }}</p>
             {% for row in version %}
                 {% if row.product_id == object.pk and row.flag_active%}
-                    <p class="card-text">Имя версии: {{ row.name }}</p>
-                    <p class="card-text">Номер версии: {{ row.num_version }}</p>
+                <p class="card-text">Имя версии: {{ row.name }}</p>
+                <p class="card-text">Номер версии: {{ row.num_version }}</p>
                 {% endif %}
             {% endfor %}
 
             <a href="{% url 'catalog:one_product' object.pk %}" class="btn btn-secondary my-2">Продукт</a>
-            <a href="{% url 'catalog:one_product_update' object.pk %}" class="btn btn-warning my-2">Редактирование</a>
-            <a href="{% url 'catalog:one_product_delete' object.pk %}" class="btn btn-danger my-2">Удаление</a>
+
+            {% if perms.catalog.change_product%}
+                <a href="{% url 'catalog:one_product_update' object.pk %}" class="btn btn-warning my-2">Редактирование</a>
+            {% endif%}
+
+            {% if user.is_superuser %}
+                <a href="{% url 'catalog:one_product_delete' object.pk %}" class="btn btn-danger my-2">Удаление</a>
+            {% endif%}
 
         </div>
     </div>
