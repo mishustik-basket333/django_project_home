@@ -69,12 +69,15 @@ class ProductListView(LoginRequiredMixin, ListView):
 #     return render(request, 'catalog/product.html', context)
 
 
-class OneProductUpdateView(PermissionRequiredMixin, generic.UpdateView):
+class OneProductUpdateView(UserPassesTestMixin, PermissionRequiredMixin, generic.UpdateView):
     model = Product
     form_class = ProductForm
     template_name = "catalog/one_product_update.html"
     success_url = reverse_lazy("catalog:product")
     permission_required = 'catalog.change_product'
+
+    def test_func(self):
+        return self.request.user == self.get_object().owner
 
     def get_context_data(self, **kwargs):
         context_data = super().get_context_data(**kwargs)

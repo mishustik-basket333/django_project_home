@@ -19,6 +19,13 @@ class ProductAdmin(admin.ModelAdmin):
     list_filter = ("category", )
     search_fields = ("name", "description")
 
+    def get_readonly_fields(self, request, obj=None):
+
+        if request.user.is_superuser:
+            return self.readonly_fields
+        else:
+            return ["name", "picture", "price", "owner"]
+
 
 @admin.register(BlogEntry)
 class BlogEntryAdmin(admin.ModelAdmin):
@@ -32,5 +39,3 @@ class VersionAdmin(admin.ModelAdmin):
     list_display = ("id", "name", "num_version", "flag_active", "product")
     search_fields = ("name", "num_version")
     list_filter = ("name", )
-
-
